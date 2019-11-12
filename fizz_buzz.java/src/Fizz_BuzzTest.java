@@ -20,4 +20,9 @@ class Fizz_BuzzTest {
         assertEquals(fizzBuzz.isMultipleOf3and5(15),true);
     }
 
+    @org.junit.jupiter.api.Test
+    void main() {
+        Fizz_Buzz fizzBuzz = new Fizz_Buzz();
+        assertEquals(fizzBuzz.main(), true);
+    }
 }
